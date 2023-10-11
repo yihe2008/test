@@ -8,3 +8,7 @@ def bubble_sort(arr):
       if arr[j] > arr[j + 1]:
         arr[j], arr[j + 1] = arr[j + 1], arr[j]
   print(arr)
+
+
+print(bubble_sort([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
